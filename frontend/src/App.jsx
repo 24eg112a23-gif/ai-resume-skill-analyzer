@@ -22,7 +22,7 @@ function App() {
 
     try {
       const response = await fetch(
-        "http://localhost:5000/api/resume/upload",
+        "https://ai-resume-skill-analyzer-m36d.onrender.com/api/resume/upload",
         {
           method: "POST",
           body: formData,
